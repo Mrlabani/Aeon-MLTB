@@ -5,14 +5,14 @@ TELEGRAM_API = 29382018
 TELEGRAM_HASH = "4734a726c04620c61ec0a28a1ae0d57f"
 
 # SEMI-REQUIRED, WE SUGGEST TO FILL IT FROM MONGODB
-DATABASE_URL = ""
+DATABASE_URL = "mongodb+srv://mrnoobx:DAZCdTczVWyECi04@cluster0.sedgwxy.mongodb.net/?retryWrites=true&w=majority"
 
 # OPTIONAL CONFIG
 TG_PROXY = {}
 USER_SESSION_STRING = ""
 DOWNLOAD_DIR = "/usr/src/app/downloads/"
 CMD_SUFFIX = ""
-AUTHORIZED_CHATS = ""
+AUTHORIZED_CHATS = "-1002403729550"
 SUDO_USERS = ""
 DEFAULT_UPLOAD = "rc"
 FILELION_API = ""
@@ -27,14 +27,14 @@ UPLOAD_PATHS = {}
 
 # INKYPINKY
 DELETE_LINKS = False
-FSUB_IDS = ""
+FSUB_IDS = "-1002310978225"
 TOKEN_TIMEOUT = 0
 LOGIN_PASS = ""  # Set a password to enable login feature
 PAID_CHANNEL_ID = 0
 PAID_CHANNEL_LINK = ""
 SET_COMMANDS = True
 METADATA_KEY = ""
-LOG_CHAT_ID = 0
+LOG_CHAT_ID = -1002428562251
 LEECH_FILENAME_CAPTION = ""
 HYDRA_IP = ""
 HYDRA_API_KEY = ""
@@ -101,8 +101,8 @@ LEECH_FILENAME_PREFIX = ""
 LEECH_SUFFIX = ""
 LEECH_FONT = ""
 LEECH_FILENAME = ""
-LEECH_DUMP_CHAT = ""
-THUMBNAIL_LAYOUT = ""
+LEECH_DUMP_CHAT = "-1002428562251"
+THUMBNAIL_LAYOUT = "https://i.ibb.co/ksz5ZH1y/17aeaf02bdc7.jpg"
 
 # qBittorrent/Aria2c
 TORRENT_TIMEOUT = 0
@@ -123,8 +123,8 @@ FFMPEG_CPU_AFFINITY = (
 FFMPEG_DYNAMIC_THREADS = True  # Dynamically adjust thread count based on system load
 
 # Auto Restart Settings
-AUTO_RESTART_ENABLED = False  # Enable/disable automatic bot restart
-AUTO_RESTART_INTERVAL = 24  # Restart interval in hours
+AUTO_RESTART_ENABLED = True  # Enable/disable automatic bot restart
+AUTO_RESTART_INTERVAL = 12  # Restart interval in hours
 
 # RSS
 RSS_DELAY = 600
