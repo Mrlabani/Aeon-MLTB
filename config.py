@@ -111,9 +111,9 @@ BASE_URL_PORT = 80
 WEB_PINCODE = False
 
 # Queueing system
-QUEUE_ALL = 0
-QUEUE_DOWNLOAD = 0
-QUEUE_UPLOAD = 0
+QUEUE_ALL = 5
+QUEUE_DOWNLOAD = 8
+QUEUE_UPLOAD = 5
 
 # Resource Management
 FFMPEG_MEMORY_LIMIT = 2048  # Memory limit in MB (0 = no limit)
@@ -123,7 +123,7 @@ FFMPEG_CPU_AFFINITY = (
 FFMPEG_DYNAMIC_THREADS = True  # Dynamically adjust thread count based on system load
 
 # Auto Restart Settings
-AUTO_RESTART_ENABLED = True  # Enable/disable automatic bot restart
+AUTO_RESTART_ENABLED = Flase  # Enable/disable automatic bot restart
 AUTO_RESTART_INTERVAL = 12  # Restart interval in hours
 
 # RSS
