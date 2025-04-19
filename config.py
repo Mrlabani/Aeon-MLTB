@@ -123,7 +123,7 @@ FFMPEG_CPU_AFFINITY = (
 FFMPEG_DYNAMIC_THREADS = True  # Dynamically adjust thread count based on system load
 
 # Auto Restart Settings
-AUTO_RESTART_ENABLED = Flase  # Enable/disable automatic bot restart
+AUTO_RESTART_ENABLED = False  # Enable/disable automatic bot restart
 AUTO_RESTART_INTERVAL = 12  # Restart interval in hours
 
 # RSS
